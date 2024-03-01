@@ -1,4 +1,4 @@
-# Week-2-Challenge
+# Week 2 Challenge
 
 ## User Story
 
