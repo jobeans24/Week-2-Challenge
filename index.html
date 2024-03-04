@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>My Portfolio</title>
+    <title>Portfolio Page</title>
     <link rel="stylesheet" href="./Portfolio/css/style.css"/>
 </head>
 <body>
@@ -11,15 +11,16 @@
         <h1>Josie Zobel's Portfolio</h1>
         <nav>
             <ul>
-                <a href="aboutme">About Me</a>
-                <a href="contact">Contact</a>
-                <a href="projects">Projects</a>
+                <li><a href="aboutme">About Me</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="projects">Projects</a></li>
             </ul>
     </header>
 
     <main>
+
         <!-- about me section -->
-        <section class="aboutme">
+        <section class="aboutme" id="aboutme">
             <h2>About Me</h2>
             <figure>
                 <img src="https://64.media.tumblr.com/09928a9f5def029685c5f76751e3c4f9/tumblr_p27c1mOyJi1rc1sr0o2_640.gif" alt="Josie Zobel">
@@ -28,7 +29,8 @@
                 </figcaption>
             </figure>
         </section>
-        <section class="contact">
+        <!-- contact information section -->
+        <section class="contact" id="contact">
             <h2>Contact Information</h2>
             <figure>
                
@@ -39,8 +41,8 @@
                 </figcaption>
             </figure>
         </section>
-
-        <section class="projects">
+        <!-- projects section -->
+        <section class="projects" id="projects">
             <h2>Projects</h2>
             <article class="project1">
                 <figure>
@@ -63,7 +65,7 @@
             <!-- Add more project articles here -->
         </section>
     </main>
-
+    <!--footer section-->
     <footer>
         <p>&copy; 2022 My Portfolio. All rights reserved.</p>
     </footer>
