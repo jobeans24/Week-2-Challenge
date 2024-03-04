@@ -1,8 +1,44 @@
 /* Reset default styles */
 body, h1, p {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: lightcoral;
+  color: solid black;
+
+
+}
+
+nav {
+  display: inline;
+  background-color: lightcoral;
+  color: #fff;
+  text-align: right;
+  flex-direction: column;
+  flex: wrap;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  background-color: lightcoral;
+  border-radius: 0%;
+}
+nav ul li {
+  display: inline;
+  margin: 0;
+  padding: 3px;
+  background-color: lightcoral;
+  border-radius: 0%;
+}
+
 
 /* Set background color and font styles */
 body {
@@ -29,26 +65,84 @@ h1 {
 /* Style the paragraph */
 p {
   font-size: 16px;
-  color: #791313;
+  color: solid black;
   line-height: 1.5;
+  padding: auto;
+  display: flex;
+  justify-content: center;
 }
 
+/* Add buttons for each link in the nav section */
+
+
+
+.aboutme {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+  display: flex;
+  flex: auto;
+  image-rendering: 50%;
+}
+
+.contact {
+  background-color: lightcyan;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+  display: flex;
+  flex: auto;
+}
+
+
+.project1 {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333; 
+}
+
+
+
+.project2 {
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 5px;
+  width: 100%;
+  background-color: lightpink;
+  color: black;
+  text-align: center;
+}
 
 /* Media query for small screens */
 @media screen and (max-width: 600px) {
   /* Add styles for small screens here */
   .container {
     flex-direction: column;
-    text-align: center;
+    text-align: right;
   }
 }
 
 /* Media query for medium screens */
-@media screen and (min-width: px) and (max-width: 796px) {
+@media screen and (min-width: 601px) and (max-width: 796px) {
   /* Add styles for medium screens here */
   .container {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 }
 
