@@ -2,6 +2,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
   display: flex;
   justify-content: space-between;
@@ -9,7 +10,8 @@ header{
   padding: 10px;
   background-color: lightcoral;
   color: solid black;
-}
+} /* Style the header */
+
 
 nav {
   display: inline;
@@ -18,7 +20,8 @@ nav {
   text-align: right;
   flex-direction: column;
   flex: wrap;
-}
+} /* Style the navigation bar */
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +30,8 @@ nav ul {
   border-radius: 0%;
   text-align: right;
   display: inline;
-}
+} /* Style the navigation bar */
+
 nav ul li {
   display: inline;
   margin: 0;
@@ -35,7 +39,7 @@ nav ul li {
   background-color: lightcoral;
   border-radius: 0%;
   text-align: right;
-}
+} /* Style the navigation bar */
 
 
 /* Set background color and font styles */
@@ -80,7 +84,7 @@ p {
   flex: auto;
   image-rendering: 50%;
   text-align: left;
-}
+} /* Style the about me section */
 
 .contact {
   background-color: lightcyan;
@@ -91,7 +95,7 @@ p {
   display: inline-block;
   flex: auto;
   text-align: right;
-}
+} /* Style the contact section */
 
 
 .project1 {
@@ -100,7 +104,7 @@ p {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #333; 
-}
+} /* Style the project 1 and its contents */
 
 
 /* Style the project 2 and its contents */
@@ -111,6 +115,7 @@ p {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #333;
 }
+
 /* Style the footer */
 footer {
   position: fixed;
