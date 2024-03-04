@@ -94,8 +94,8 @@ p {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #333;
   display: inline-block;
-  flex: auto;
-  text-align: right;
+  text-align: left;
+  width: auto;
 } /* Style the contact section */
 
 
