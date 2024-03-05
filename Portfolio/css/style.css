@@ -43,6 +43,16 @@ nav ul li {
 } /* Style the navigation bar */
 
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightcoral;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} /* Style the navigation bar */
+
+
 /* Set background color and font styles */
 body {
   background-color: #f2f2f2;
@@ -75,6 +85,13 @@ p {
   justify-content: center;
 }
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 .aboutme {
   background-color: lightgoldenrodyellow;
   padding: 20px;
@@ -98,21 +115,49 @@ p {
   width: auto;
 } /* Style the contact section */
 
-
-.project1 {
-  background-color: lightblue;
+.projects {
+  background-color: lightgray;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+} /* Style the projects section */
+
+.project1 {
+  background-color: lightblue;
+  padding: 5px;
+  margin: 5px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
   box-shadow: 0 0 10px 0 #333; 
 } /* Style the project 1 and its contents */
+
+.project1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+}
 
 
 /* Style the project 2 and its contents */
 .project2 {
   background-color: lightgreen;
-  padding: 20px;
-  margin: 20px;
+  padding: 5px;
+  margin: 5px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #333;
+}
+.project2 img {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px 0 #333;
 }
